@@ -22,6 +22,23 @@ Fractal mapping is a subpattern of the FATD..D development pattern. Fractal mapp
 - Acceptance criteria to external documents
   - Why: If your documentation is in antoher repo or inside a database. This can help identify breaking changes in documentation.
 
+## Installing
+`todo`
+
+## Use
+
+### Configuration / Options
+Specifying the behaivor maybe be done via combinations of several methods:
+- Configuration files
+- Environment variables
+- Terminal command arguments
+- API calls
+
+### Running
+The factal mapper may be run through three methods:
+- Commandline
+- JavaScript API
+- GitHub Action
 
 ## Credits
 Fractal Tree Gif by  <a href="https://commons.wikimedia.org/wiki/File:Fractal_tree.gif">Rafael Ruggiero</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons

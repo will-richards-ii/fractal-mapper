@@ -14,7 +14,7 @@ Fractal mapping is a subpattern of the FATD..D development pattern. Fractal mapp
 - Tests to Working Implmentation Code (Green)
   - Why: Knowing your code coverage is always useful. Feel free to rerun all your tests or use commit diffs. But this is another way to track it.
 - Tests to Failing Code (Red)
-  - Why: If you have to refactor your tests this makes it easier to replay and adapt if the reference is kept somewhere. This also serves as proof of human effort. And serves to help with reference source.
+  - Why: If you have to refactor your tests this makes it easier to replay and adapt if the reference is kept somewhere. This also serves as proof of activity. And serves to help with reference source.
 - Acceptance(s) to Test(s)
   - Why: This helps track what requirments are being implemented where, and if requirements change what source might be affected. Consider this as another way keeping your code organized. File folders are great but this also helps track relationships between sections of those files.
 - External references to Acceptance:
@@ -33,6 +33,14 @@ Specifying the behaivor maybe be done via combinations of several methods:
 - Environment variables
 - Terminal command arguments
 - API calls
+
+Modular settings make this tool more neutral in how you choose to use it and basic on project needs. Two major categories of modules exist:
+- Categories
+- Source code languages
+
+Combinations of configuration and modules together make a mode.
+
+A configuration may specify to focus on only a specific mode, do the modes in sequence or do the modes in parallel.
 
 ### Running
 The factal mapper may be run through three methods:
